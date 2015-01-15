@@ -1,0 +1,13 @@
+{
+  "name": "mynodedemo",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+    "express": "^4.10.7",
+    "redis": "^0.12.1",
+    "socket.io": "^1.2.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

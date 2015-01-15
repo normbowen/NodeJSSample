@@ -1,0 +1,6 @@
+---
+applications:
+- name: chatter
+  mem: 128M
+  services:
+    redis: redis-chatter

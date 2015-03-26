@@ -6,6 +6,7 @@ var port = process.env.VCAP_APP_PORT || 3000;
 
 var redisClient;
 
+
 if (process.env.VCAP_SERVICES) {
     var conf = JSON.parse(process.env.VCAP_SERVICES);
     var config = {};

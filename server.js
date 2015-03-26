@@ -4,6 +4,7 @@ var io = require('socket.io')(http);
 var redis = require('redis');
 var port = process.env.VCAP_APP_PORT || 3000;
 
+
 var redisClient;
 
 if (process.env.VCAP_SERVICES) {

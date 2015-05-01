@@ -2,6 +2,7 @@
 applications:
 - name: chatter
   mem: 128M
+  instances: 1
   services:
     ${name}-redis:
       type: redis

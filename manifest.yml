@@ -1,6 +1,7 @@
 ---
 applications:
 - name: chatter
+  buildpack: https://github.com/ActiveState/nodejs-buildpack
   mem: 128M
   instances: 1
   services:
